@@ -76,9 +76,9 @@ p {
   padding: 160px 120px;
   flex-wrap: wrap;
   background: url('../css/wer.jpg');
-  background-size: cover;       /* Biar menutupi seluruh area */
-  background-position: center;  /* Posisinya di tengah */
-  background-repeat: no-repeat; /* Biar tidak diulang */
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
 }
 
 .intro-text {
@@ -179,7 +179,7 @@ p {
 }
 
 .about-text {
-  flex: 2; /* agar teks lebih lebar dari foto */
+  flex: 2; 
   min-width: 300px;
 }
 
@@ -279,7 +279,7 @@ p {
 
 /* Section Project */
 .projects-section {
-  background-color: #ffffff; /* putih */
+  background-color: #ffffff; 
   padding: 60px 20px;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
@@ -298,7 +298,7 @@ p {
 /* Container grid */
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Lebar lebih kecil */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
   gap: 25px;
   max-width: 1100px;
   margin: auto;
@@ -445,9 +445,10 @@ p {
 
 /*icon*/
 .social-icons a {
-  text-decoration: none; /* Hilangkan garis bawah */
+  text-decoration: none; 
 }
 
 .social-icons a:hover {
-  text-decoration: none; /* Pastikan saat hover tetap tanpa garis */
+  text-decoration: none; 
 }
+
